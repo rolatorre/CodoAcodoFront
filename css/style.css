@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.orador {
+width: 20%;
+border: 1px solid lightgrey;
+border-radius: 5px;
+margin: .5rem;
+}
+.oradores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.orador img {
+  width: 100%;
+}
+.descripcion {
+    margin: 1rem;
+}
+.botones {
+    margin-bottom: .5rem;
+}
+
+.btnamarillo > a{
+    color: black;
+}
+
+.btnceleste > a {
+    color: white;
+}
+
+.btngris > a {
+    color: white;
+}
+
+.btnrojo > a {
+    color: white;
+}
+
+.btnamarillo {
+    background-color: rgb(254, 193, 7);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+    
+}
+
+.btnceleste{
+    background-color: rgb(23, 162, 183);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+    
+    
+}
+
+.btngris {
+    background-color: grey;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+}
+
+.btnrojo {
+    background-color: crimson;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+}
+
+.orador .titulo {
+font-size: 1.3rem;
+margin-bottom: .8rem;
+color: rgb(73, 72, 72);
+}
+.orador .texto{
+    text-align: justify;
+    line-height: 1.3rem;
+    color: rgb(73, 72, 72);
+    font-size: .8rem;
+}
+.carousel-inner > .carousel-item> img {
+    filter: brightness(50%);
+}
+.titulochico{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: medium;
+    margin: 4px;
+}
+.titulogrande{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    font-size: x-large;
+    margin: 3px;
+}
+
+.fs-4 {
+    margin: 5px;
+
+}
+
+.footer{
+    width: auto;
+    height: 50px;
+}
+.contenedor {
+    overflow: auto; 
+    background-color: rgb(59, 88, 88);
+    color: white;
+    font-size: small;
+    margin: .2rem;
+  }
+  
+  img {
+    float: left; 
+    margin-right: 10px; 
+  }
+  .titulobsas{
+    font-weight: bold;
+    margin: 1rem;
+    font-size: large;
+  }
+  .textobsas{
+    margin: .5rem;
+  }
+ 
